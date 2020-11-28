@@ -16,7 +16,7 @@ const Header = () => {
                             <a className="nav-link" href="#home">HOME</a>
                         </li>
                         <li>
-                            <a className="nav-link" href="#about">LOGIN</a>
+                            {/* <a className="nav-link" href="#about">LOGIN</a> */}
                         </li>
                         <li>
                             <a className="nav-link" href="#contact-us">FORM</a>
@@ -29,7 +29,7 @@ const Header = () => {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="logo text-center">
-                                <img src="https://media-exp1.licdn.com/dms/image/C4E1BAQFYLfyfEam80w/company-background_10000/0/1602011073237?e=1606478400&v=beta&t=XY1MMQ50m-4OOEg3v6d0QsByfP9URx7GOZoBb9lVmig" style={{marginTop:20,height:150,width:600}} alt="logo" className="logo" />
+                                <img src="images/logo-smal.png" style={{height:400,width:350}} alt="logo" className="logo" />
                             </div>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ const Header = () => {
                                 <br />
                                 {/* <p>The name QUK ADS is a short form of telling Business People to Advertise Quickly.</p> */}
                             </div>
-                            <div className="header-btns">
+                            <div className="header-btns" style={{marginTop:0}}>
                                 {/* <a href="#download-now" className="btn btn-download wow fadeInLeft">Download</a> */}
                                 <a href="#contact-us" className="btn btn-tour wow fadeInRight">Click Here <i className="fa fa-angle-down" /></a>
                             </div>

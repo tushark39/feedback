@@ -155,9 +155,9 @@ class App extends React.Component{
                    <div className="col-md-12 wow bounceInLeft">
                        <div className="social-icons">
                            <ul>
-                               <li><a href="#"><i className="fa fa-facebook" /></a></li>
-                               <li><a href="#"><i className="fa fa-twitter" /></a></li>
-                               <li><a href="#"><i className="fa fa-youtube-play" /></a></li>
+                               <li><a href="https://www.instagram.com/tushar.pandey112/"><i className="fa fa-instagram" /></a></li>
+                               <li><a href="https://www.github.com/tushark39/"><i className="fa fa-github" /></a></li>
+                               <li><a href="https://www.linkedin.com/in/tushark39/"><i className="fa fa-linkedin" /></a></li>
                            </ul>
                        </div>
                    </div>
